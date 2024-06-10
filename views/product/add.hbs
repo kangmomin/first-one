@@ -131,7 +131,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>도매율 *</label>
+                                            <label>도매가 *</label>
                                             <input type="number" class="form-control" placeholder="도매율 입력"
                                                    data-errors="Please Enter Price." name="wholesalePrice" required>
                                             <div class="help-block with-errors"></div>
@@ -226,7 +226,7 @@
         resizeImage(file, 50, 50, file => {
             jsonData.image = file;
 
-            fetch('/product/update', {
+            fetch('/product/add', {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json; charset=UTF-8',

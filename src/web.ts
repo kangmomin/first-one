@@ -27,10 +27,19 @@ async function bootstrap() {
   app.use(json({ limit: '50mb' }));
 
   hbs.registerHelper("multiple", (index,value) => {
-    return (index * value).toLocaleString();
+    return (value / index * 200).toFixed(1).toLocaleString();
   })
   hbs.registerHelper("locale", (index) => {
     return index.toLocaleString();
+  })
+  hbs.registerHelper("len", (index) => {
+    let sum = 0
+
+    index.forEach(val => {
+      sum += val.quantity
+    })
+
+    return sum
   })
 
   await app.listen(process.env.PORT);
