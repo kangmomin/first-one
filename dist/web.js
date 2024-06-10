@@ -17,8 +17,8 @@ async function bootstrap() {
         saveUninitialized: false,
         cookie: { maxAge: 86400000 }
     }));
-    app.useStaticAssets((0, path_1.join)(__dirname, '..', 'public'));
-    app.setBaseViewsDir((0, path_1.join)(__dirname, '..', 'views'));
+    app.useStaticAssets((0, path_1.join)(__dirname, 'public'));
+    app.setBaseViewsDir((0, path_1.join)(__dirname, 'views'));
     app.setViewEngine("hbs");
     app.use((0, express_1.json)({ limit: '50mb' }));
     hbs.registerHelper("multiple", (index, value) => {
