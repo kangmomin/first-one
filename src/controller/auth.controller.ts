@@ -1,18 +1,13 @@
-import { Controller, Get, Post, Req, Res, Body } from '@nestjs/common';
+import { Controller, Get, Post, Req, Res, Body, Render } from '@nestjs/common';
 import { Request, Response } from 'express';
 import * as process from "process";
 
 @Controller('auth')
 export class AuthController {
     @Get()
+    @Render("auth/password")
     getAuthPage(@Res() res: Response) {
-        res.send('' +
-            '<form method="post">' +
-                '<label>' +
-                    '<input type="password" name="password"/>' +
-                    '<button type="submit">Login</button>' +
-                '</label>'+
-            '</form>');
+        return {}
     }
 
     @Post()
