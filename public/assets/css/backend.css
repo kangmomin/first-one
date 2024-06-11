@@ -20204,3 +20204,25 @@ i {
     border: 0 !important; }
   .card-item-right .style-text {
     margin-left: 10px; } }
+
+/* 추가 css */
+.table .ligth td{ line-height: 1.4; text-align: center;}
+.table .ligth td .product .avatar-50{ max-height: 100px; max-width: 100px; margin-bottom: 10px;}
+.table .ligth td .text-right{ text-align: right;}
+.table .ligth td .text-left{ text-align: left;}
+
+@media (max-width: 533px) {
+  .table .ligth.ligth-data th { padding: 15px 40px !important;}
+
+
+  .table .ligth.ligth-data th.item01{ width: 100px !important;}
+  .table .ligth.ligth-data th.item02{ width: 50px !important;}
+  .table .ligth.ligth-data th.item03{ width: 60px !important;}
+  .table .ligth.ligth-data th.item04{ width: 50px !important;}
+  .table .ligth.ligth-data th.item05{ width: 50px !important;}
+  .table .ligth.ligth-data th.item06{ width: 60px !important;}
+  .table .ligth.ligth-data th.item07{ width: 70px !important;}
+  .table .ligth.ligth-data th.item09{ width: 70px !important;}
+  .table .ligth th,
+  .table .ligth td{ padding: 10px !important; font-size: 14px;}
+}
