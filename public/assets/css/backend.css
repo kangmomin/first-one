@@ -20212,7 +20212,7 @@ i {
 .table .ligth td .text-left{ text-align: left;}
 
 @media (max-width: 533px) {
-  .table .ligth.ligth-data th { padding: 15px 40px !important;}
+  .table .ligth.ligth-data th { padding: 15px 60px !important;}
 
 
   .table .ligth.ligth-data th.item01{ width: 100px !important;}

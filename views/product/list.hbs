@@ -160,21 +160,21 @@
                       </div>
                     </div>
                   </td>
-                  <td>{{this.color}}</td>
+                  <td class="text-center">{{this.color}}</td>
                   <td class="text-right">
                     {{#each this.sizes}}
                       {{this.size}}
                       ({{this.quantity}})<br>
                     {{/each}}
                   </td>
-                  <td>
+                  <td class="text-center">
                     {{#len this.sizes}}{{/len}}
                   </td>
-                  <td class="isCostInclude">￥{{#locale this.costPrice}}{{/locale}}</td>
-                  <td class="isCostInclude">
+                  <td class="isCostInclude text-center">￥{{#locale this.costPrice}}{{/locale}}</td>
+                  <td class="isCostInclude text-center">
                     {{#multiple this.costPrice this.wholesalePrice}}{{/multiple}}
                   </td>
-                  <td>{{#locale this.wholesalePrice}}{{/locale}}원</td>
+                  <td class="text-center">{{#locale this.wholesalePrice}}{{/locale}}원</td>
                   <td class="text-left">{{this.memo}}</td>
                   <td>
                     <div class="d-flex align-items-center list-action">
