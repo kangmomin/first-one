@@ -8,7 +8,7 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 :root {
-  --blue: #32BDEA;
+  --blue: #ae98b3;
   --indigo: #6610f2;
   --purple: #4731b6;
   --pink: #e83e8c;
@@ -22,7 +22,7 @@
   --gray: #6c757d;
   --gray-dark: #01041b;
   --skyblue: #158df7;
-  --primary: #32BDEA;
+  --primary: #ae98b3;
   --secondary: #FF7E41;
   --success: #78C091;
   --info: #7EE2FF;
@@ -138,7 +138,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #32BDEA;
+  color: #ae98b3;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -1724,7 +1724,7 @@ textarea.form-control {
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #32BDEA; }
+    background-color: #ae98b3; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     pointer-events: none;
@@ -1885,7 +1885,7 @@ textarea.form-control {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #32BDEA; }
+  background-color: #ae98b3; }
 
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -4728,8 +4728,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #32BDEA;
-  border-color: #32BDEA;
+  background-color: #ae98b3;
+  border-color: #ae98b3;
   box-shadow: unset; }
   .btn-primary:hover {
     color: #fff;
@@ -4742,8 +4742,8 @@ fieldset:disabled a.btn {
     box-shadow: unset, 0 0 0 0.2rem rgba(81, 199, 237, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #32BDEA;
-    border-color: #32BDEA; }
+    background-color: #ae98b3;
+    border-color: #ae98b3; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -5051,22 +5051,22 @@ fieldset:disabled a.btn {
       box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(212, 214, 219, 0.5); }
 
 .btn-outline-primary {
-  color: #32BDEA;
-  border-color: #32BDEA; }
+  color: #ae98b3;
+  border-color: #ae98b3; }
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #32BDEA;
-    border-color: #32BDEA; }
+    background-color: #ae98b3;
+    border-color: #ae98b3; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(50, 189, 234, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #32BDEA;
+    color: #ae98b3;
     background-color: transparent; }
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #32BDEA;
-    border-color: #32BDEA; }
+    background-color: #ae98b3;
+    border-color: #ae98b3; }
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-primary.dropdown-toggle:focus {
       box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(50, 189, 234, 0.5); }
@@ -5304,7 +5304,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #32BDEA;
+  color: #ae98b3;
   text-decoration: none; }
   .btn-link:hover {
     color: #1393bc;
@@ -7446,11 +7446,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   scrollbar-color: #ae98b3 #88DFFB;
   scrollbar-width: thin; }
   .scroller::-webkit-scrollbar-thumb {
-    background-color: #32BDEA; }
+    background-color: #ae98b3; }
   .scroller::-webkit-scrollbar-track {
     background-color: #88DFFB; }
   .scroller::-moz-scrollbar-thumb {
-    background-color: #32BDEA; }
+    background-color: #ae98b3; }
   .scroller::-moz-scrollbar-track {
     background-color: #88DFFB; }
 
@@ -7595,8 +7595,8 @@ ul.iq-edit-profile li a {
       -ms-border-radius: 5px 0 0 5px;
       -o-border-radius: 5px 0 0 5px;
       border-radius: 5px 0 0 5px;
-      background-color: #32BDEA;
-      border-color: #32BDEA;
+      background-color: #ae98b3;
+      border-color: #ae98b3;
       z-index: 0;
       display: none; }
     .change-mode .custom-switch.custom-switch-icon label.custom-control-label:before {
