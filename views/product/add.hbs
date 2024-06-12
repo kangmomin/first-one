@@ -223,7 +223,7 @@
         const imageInput = form.querySelector('input[type="file"]');
         const file = imageInput.files[0] || null;
 
-        resizeImage(file, 50, 50, file => {
+        resizeImage(file, 500, 500, file => {
             jsonData.image = file;
 
             fetch('/product/add', {
