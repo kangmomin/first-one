@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>재고 관리 시스템</title>
+  <title>창고 재고 관리 시스템 - 재고 목록</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+  <link rel="shortcut icon" href="/assets/images/favicon.ico"/>
   <link rel="stylesheet" href="/assets/css/backend-plugin.min.css">
   <link rel="stylesheet" href="/assets/css/backend.css?v=1.0.0">
   <link rel="stylesheet" href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
@@ -25,9 +25,9 @@
 
   <div class="iq-sidebar  sidebar-default ">
     <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
-      <a href="/backend/index.html" class="header-logo">
+      <a href="#" class="header-logo">
         <img src="/assets/images/logo.png" class="img-fluid rounded-normal light-logo" alt="logo"><h5
-        class="logo-title light-logo ml-3">POSDash</h5>
+        class="logo-title light-logo ml-3">Lalilas</h5>
       </a>
       <div class="iq-menu-bt-sidebar ml-0">
         <i class="las la-bars wrapper-menu"></i>
@@ -36,81 +36,46 @@
     <div class="data-scrollbar" data-scroll="1">
       <nav class="iq-sidebar-menu">
         <ul id="iq-sidebar-toggle" class="iq-menu">
-
           <li class=" ">
-            <a href="#product" class="collapsed" data-toggle="collapse" aria-expanded="false">
-              <svg class="svg-icon" id="p-dash2" width="20" height="20" xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                   stroke-linejoin="round">
-                <circle cx="9" cy="21" r="1"></circle>
-                <circle cx="20" cy="21" r="1"></circle>
-                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            <a href="/product/list" class="collapsed">
+              <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                      d="M11 15h6v2h-6zM9 7H7v2h2zm2 6h6v-2h-6zm0-4h6V7h-6zm-2 2H7v2h2zm12-6v14c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2m-2 0H5v14h14zM9 15H7v2h2z"/>
               </svg>
-              <span class="ml-4">Products</span>
-              <svg class="svg-icon iq-arrow-right arrow-active" width="20" height="20"
-                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="10 15 15 20 20 15"></polyline>
-                <path d="M4 4h7a4 4 0 0 1 4 4v12"></path>
-              </svg>
+              <span class="ml-4">상품 조회</span>
             </a>
-            <ul id="product" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
-              <li class="active">
-                <a href="/backend/page-list-product.html">
-                  <i class="las la-minus"></i><span>List Product</span>
-                </a>
-              </li>
-              <li class="">
-                <a href="/backend/page-add-product.html">
-                  <i class="las la-minus"></i><span>Add Product</span>
-                </a>
-              </li>
-            </ul>
+          </li>
+        </ul>
+        <ul id="" class="iq-menu">
+          <li class=" ">
+            <a href="/product/add" class="collapsed">
+              <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                <defs>
+                  <path id="carbonNewTab0" fill="currentColor" d="M26 26H6V6h10V4H6a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V16h-2Z" />
+                </defs>
+                <use href="#carbonNewTab0" />
+                <use href="#carbonNewTab0" />
+                <path fill="currentColor" d="M26 6V2h-2v4h-4v2h4v4h2V8h4V6z" />
+              </svg>
+              <span class="ml-4">상품 추가</span>
+            </a>
           </li>
         </ul>
       </nav>
-
       <div class="p-3"></div>
     </div>
   </div>
-
-
   <div class="iq-top-navbar">
     <div class="iq-navbar-custom">
       <nav class="navbar navbar-expand-lg navbar-light p-0">
         <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
           <i class="ri-menu-line wrapper-menu"></i>
-          <a href="/backend/index.html" class="header-logo">
+          <a href="/product/list" class="header-logo">
             <img src="/assets/images/logo.png" class="img-fluid rounded-normal" alt="logo">
-            <h5 class="logo-title ml-3">POSDash</h5>
-
+            <h5 class="logo-title ml-3">재고관리 시스템</h5>
           </a>
         </div>
-
       </nav>
-    </div>
-  </div>
-  <div class="modal fade" id="new-order" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="popup text-left">
-            <h4 class="mb-3">New Order</h4>
-            <div class="content create-workform bg-body">
-              <div class="pb-3">
-                <label class="mb-2">Email</label>
-                <input type="text" class="form-control" placeholder="Enter Name or Email">
-              </div>
-              <div class="col-lg-12 mt-4">
-                <div class="d-flex flex-wrap align-items-ceter justify-content-center">
-                  <div class="btn btn-primary mr-4" data-dismiss="modal">Cancel</div>
-                  <div class="btn btn-outline-primary" data-dismiss="modal">Create</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <div class="content-page">
@@ -126,7 +91,7 @@
                 <input type="checkbox" id="isCostInclude" class="mr-1">도매
               </label>
               <a href="/product/add" class="btn btn-primary add-list">
-                <i class="las la-plus mr-3"></i>재고 추가
+                <i class="las la-plus mr-3"></i>상품 추가
               </a>
             </div>
           </div>

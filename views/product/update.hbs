@@ -27,7 +27,7 @@
         <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
             <a href="#" class="header-logo">
                 <img src="/assets/images/logo.png" class="img-fluid rounded-normal light-logo" alt="logo"><h5
-                    class="logo-title light-logo ml-3">POSDash</h5>
+                    class="logo-title light-logo ml-3">Lalilas</h5>
             </a>
             <div class="iq-menu-bt-sidebar ml-0">
                 <i class="las la-bars wrapper-menu"></i>
@@ -42,7 +42,7 @@
                                 <path fill="currentColor"
                                       d="M11 15h6v2h-6zM9 7H7v2h2zm2 6h6v-2h-6zm0-4h6V7h-6zm-2 2H7v2h2zm12-6v14c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2m-2 0H5v14h14zM9 15H7v2h2z"/>
                             </svg>
-                            <span class="ml-4">재고 조회</span>
+                            <span class="ml-4">상품 조회</span>
                         </a>
                     </li>
                 </ul>
@@ -57,7 +57,7 @@
                                 <use href="#carbonNewTab0" />
                                 <path fill="currentColor" d="M26 6V2h-2v4h-4v2h4v4h2V8h4V6z" />
                             </svg>
-                            <span class="ml-4">재고 추가</span>
+                            <span class="ml-4">상품 추가</span>
                         </a>
                     </li>
                 </ul>
@@ -94,7 +94,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="type">제품 타입</label>
+                                            <label for="type">상품 타입</label>
                                             <select id="type" name="category" value="{{p.category}}"
                                                     class="selectpicker form-control" data-style="py-0">
                                                 <option>상의/셔츠</option>
@@ -108,16 +108,16 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="name">이름 *</label>
-                                            <input id="name" type="text" class="form-control" placeholder="홍길동"
-                                                   data-errors="이름을 입력해주세요." value="{{p.name}}" name="name" required>
+                                            <label for="name">상품명 *</label>
+                                            <input id="name" type="text" class="form-control" placeholder="상품명 입력"
+                                                   data-errors="상품명을 입력해주세요." value="{{p.name}}" name="name" required>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>색상 *</label>
-                                            <input type="text" class="form-control" placeholder="검정색"
+                                            <input type="text" class="form-control" placeholder="색상 입력"
                                                    data-errors="색상을 입력해 주세요." value="{{p.color}}" name="color" required>
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -125,7 +125,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>원가 *</label>
-                                            <input type="number" class="form-control" placeholder="원가 입력"
+                                            <input type="number" class="form-control" placeholder="원가 입력(위엔)"
                                                    data-errors="Please Enter Cost." value="{{p.costPrice}}" name="costPrice" required>
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -133,7 +133,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>도매가 *</label>
-                                            <input type="number" class="form-control" placeholder="도매율 입력"
+                                            <input type="number" class="form-control" placeholder="도매가 입력(원화)"
                                                    data-errors="Please Enter Price." value="{{p.wholesalePrice}}" name="wholesalePrice" required>
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -182,7 +182,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label>재고 사진</label>
+                                            <label>상품사진</label>
                                             <input type="file" class="form-control image-file" name="pic"
                                                    accept="image/*">
                                         </div>
@@ -190,7 +190,7 @@
 
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label>제품 상세 메모</label>
+                                            <label>상세 메모</label>
                                             <textarea class="form-control" name="memo" rows="4">{{p.memo}}</textarea>
                                         </div>
                                     </div>

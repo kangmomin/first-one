@@ -1,6 +1,6 @@
 /*!
 *
-* Template: POSDash - Responsive Bootstrap 4 Admin Dashboard Template
+* Template: Lalilas- Responsive Bootstrap 4 Admin Dashboard Template
 * Author: iqonic.design
 * Design and Developed by: iqonic.design
 * NOTE: This file contains the styling for responsive Template.
@@ -2180,7 +2180,7 @@ textarea.form-control {
 
 .bg-primary {
   color: #03151a !important;
-  background-color: #32BDEA !important; }
+  background-color: #ae98b3 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -2335,7 +2335,7 @@ button.bg-light-gray:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #32BDEA !important; }
+  border-color: #ae98b3 !important; }
 
 .border-secondary {
   border-color: #FF7E41 !important; }
@@ -4583,7 +4583,7 @@ button.bg-light-gray:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #32BDEA !important; }
+  color: #ae98b3 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #1393bc !important; }
@@ -7443,7 +7443,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .scroller {
   overflow-y: auto;
-  scrollbar-color: #32BDEA #88DFFB;
+  scrollbar-color: #ae98b3 #88DFFB;
   scrollbar-width: thin; }
   .scroller::-webkit-scrollbar-thumb {
     background-color: #32BDEA; }
